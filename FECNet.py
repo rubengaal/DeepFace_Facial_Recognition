@@ -52,8 +52,8 @@ if __name__ == '__main__':
 
 
     # loading data
-    if not os.path.exists('data/train'):
-        os.makedirs('data/train', exist_ok=True)
+    if not os.path.exists('Data/train'):
+        os.makedirs('Data/train', exist_ok=True)
         creat_label()
         download_img()
 
