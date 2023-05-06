@@ -32,7 +32,7 @@ transforms_validation = transforms.Compose([
     transforms.Normalize([0.5075, 0.5075, 0.5075],[0.2503, 0.2503, 0.2503])
 ])
 
-data_path = 'Data/FER2013'
+data_path = 'D:/OE/szakdolgozat/FEC_model/Data/Data/FER2013' #Data/FER2013'
 train_dataset = datasets.ImageFolder(os.path.join(data_path,'train'), transforms_train)
 validation_dataset = datasets.ImageFolder(os.path.join(data_path,'test'), transforms_validation)
 
